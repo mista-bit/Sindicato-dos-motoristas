@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* 
+	font:normal 62.5%/1.5 Helvetica, Arial, sans-serif;
+	color:#434343;
+ */
+body { 
+    font-family:normal Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	letter-spacing:0;
+	background-color: #FFFFFF; 
+/*	background:#efefef url(imagem/background.png) repeat top center; */
+	padding:20px 0;
+	margin:0;
+	left:0;
+	position:relative;
+/*
+	text-shadow:0 1px 0 rgba(255,255,255,.8);
+	-webkit-font-smoothing: subpixel-antialiased;
+*/	
+}
+#tela_principal {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	/*	left:15px; */
+/*	top:30px; */
+	width:950px;
+	height:880px;
+	z-index:1;
+	/*	background-color: #FFFFFF; */
+	background:#efefef url(imagem/background.png) repeat top center;
+}
+
+#banner1 {
+	position:relative;
+	margin:auto;
+	border:1px solid #000;
+/*	left:15px; */
+/*	top:30px; */
+	width:790px;
+	height:190px;
+	z-index:1;
+	background-color: #000000; 
+/*	background:#efefef url(imagem/background.png) repeat top center; */
+}
+
+
+#tela_logo {
+	position:relative;
+	margin:15px;
+/*	left:2px; */
+	top:20px; 
+	width:270px;
+	height:270px;
+	z-index:1;
+	background:#efefef url(imagem/logo22.png) repeat top center; 
+/*	background-color: #FFFFFF; */
+}
+#tela_fundo {
+	position:absolute;
+	margin:0;
+	left:0px;
+	top:0px;
+	width:940px;
+	height:100px;
+	z-index:1;
+/*	background-color: #FFFFFF;*/
+	background:#efefef url(imagem/background.png) repeat top center; 
+
+	border:0px solid #000;
+}
+
+#tela_fundo_menu {
+	position:absolute;
+	margin:0;
+	left:15px;
+	top:370px;
+	width:200px;
+	height:350px;
+	/*z-index:1;
+	/*    background:#efefef url(imagem/teste.png) repeat top center; */
+    /*background-color: #FFFFFF;*/
+	color:#FFFFFF;
+	border:0px solid #000;
+}
+#tela_noticias {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:270px;
+	height:450px;
+	z-index:1;
+	/*    background:#efefef url(imagem/teste.png) repeat top center; */
+    background-color: #FFFFFF;
+	border:0px solid #000;
+}
+#relogio {
+	position:absolute;
+	margin:0;
+	left:50px;
+	top:710px;
+	width:120px;
+	height:120px;
+	/*z-index:1;
+	/*    background:#efefef url(imagem/teste.png) repeat top center; */
+    /*background-color: #FFFFFF;*/
+	color:#FFFFFF;
+	border:0px solid #000;
+}
+
+#tela_horario {
+	position:absolute;
+	margin:0;
+	left:510px;
+	top:370px;
+	width:420px;
+	height:487px;
+	z-index:1;
+	border:1px solid #000;
+	background:#efefef url(imagem/background.png) repeat top center;
+/*    background-color: #326A9A; */
+    }
+	
+/* Pagina presidente*/	
+#tela_texto {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:630px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #FFFFFF;'
+    }
+#tela_principal1 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:1010px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center; 
+}
+/* Pagina acordos*/	
+#tela_texto2 {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:1200px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #426581;
+    }
+#tela_principal2 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:1600px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center;
+}
+
+/* Pagina assistencia medica*/	
+#tela_texto3 {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:1670px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #FFFFFF;
+    }
+#tela_principal3 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:2050px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center; 
+}
+
+/* fim*/	
+
+/* Pagina salao*/	
+#tela_texto4 {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:1020px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #FFFFFF;
+    }
+#tela_principal4 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:1400px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center; 
+}
+
+/* fim*/	
+
+/* Pagina fotos*/	
+#tela_texto5 {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:500px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #FFFFFF;
+    }
+#tela_principal5 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:900px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center; 
+}
+
+/* fim*/	
+
+/* Pagina exames*/	
+#tela_texto6 {
+	position:absolute;
+	margin:0;
+	left:220px;
+	top:370px;
+	width:710px;
+	height:500px;
+	z-index:1;
+	border:1px solid #000;
+	background-color: #FFFFFF;
+    }
+#tela_principal6 {
+	position:relative;
+	margin:auto;
+	border:2px solid #000;
+	width:950px;
+	height:900px;
+	z-index:1;
+	background:#efefef url(imagem/background.png) repeat top center; 
+}
+
+/* fim*/	
+
+
+#container {
+	width:300px;
+	top:10px;
+	left:320px;
+	padding:10px;
+	margin:0 auto;
+	position:absolute;
+	z-index:0; }
+
+#example {
+	width:600px;
+	height:350px;
+	position:absolute;
+}
+
+#ribbon {
+	position:absolute;
+	top:3px;
+	left:15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+.slides_container {
+	width:570px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+#footer {
+	text-align:center;
+	width:580px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+
+a:link,a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color:#599100;
+	text-decoration:underline;
+}
